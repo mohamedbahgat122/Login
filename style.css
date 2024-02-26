@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(img/9019796.jpg);
+
+}
+
+.login {
+    background: linear-gradient(rgb(208, 208, 220), rgb(255, 255, 255));
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3%;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.385);
+}
+
+.login h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.508);
+}
+
+.login form input {
+    width: 90%;
+    padding: 10px;
+    margin-left: 10px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.403);
+}
+
+.login form label {
+    font-size: 20px;
+    text-align: center;
+}
+
+.login form button {
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    margin: 30px 0px 30px 120px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+    transition: 0.5s;
+}
+
+.login form button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+.ver {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ver .aa {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 120px;
+    background-color: black;
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+    .login form input {
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    .login form button {
+        margin: 0px;
+        width: 100px;
+    }
+
+    .ver {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .ver p {
+        width: 10px 0px;
+    }
+
+    .login {
+        width: 70%;
+    }
+
+}
